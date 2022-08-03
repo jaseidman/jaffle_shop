@@ -5,7 +5,7 @@ jaffle_shop:
      type: databricks
      method: http
      schema: "default"
-     host: "{{ env_var('DBT_HOST') }}"
-     http_path: "sql/protocolv1/o/{{ env_var('DBT_ORG_ID') }}/{{ env_var('DBT_CLUSTER_ID') }}"
+     host: adb-7064161269814046.2.staging.azuredatabricks.net
+     http_path: /sql/1.0/endpoints/63a09d45bc0b0720
      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
 
