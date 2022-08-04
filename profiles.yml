@@ -4,7 +4,7 @@ jaffle_shop:
    databricks_job:
      type: databricks
      method: http
-     schema: "default"
+     schema: db_default_schema
      host: adb-7064161269814046.2.staging.azuredatabricks.net
      http_path: /sql/1.0/endpoints/63a09d45bc0b0720
      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
