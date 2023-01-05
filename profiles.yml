@@ -6,6 +6,5 @@ jaffle_shop:
      method: http
      schema: dbt_test_schema_classic
      host: adb-7064161269814046.2.staging.azuredatabricks.net
-     http_path: /sql/1.0/warehouses/63a09d45bc0b0720
+     http_path: sql/protocolv1/o/7064161269814046/0105-164839-1vnwr2o7
      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
-
