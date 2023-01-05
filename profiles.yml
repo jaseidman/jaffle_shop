@@ -4,7 +4,7 @@ jaffle_shop:
    databricks_job:
      type: databricks
      method: http
-     schema: dbt_test_schema_classic
+     schema: dbt_test_schema_2
      host: adb-7064161269814046.2.staging.azuredatabricks.net
      http_path: sql/protocolv1/o/7064161269814046/0105-164839-1vnwr2o7
      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
